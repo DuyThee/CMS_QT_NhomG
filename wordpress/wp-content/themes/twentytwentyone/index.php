@@ -14,8 +14,47 @@
  * @since Twenty Twenty-One 1.0
  */
 
-get_header(); ?>
+get_header(); 
+$has_sidebar_10 = is_active_sidebar(index: 'sidebar-10');
+$has_sidebar_11 = is_active_sidebar(index: 'sidebar-11');
+$has_sidebar_12 = is_active_sidebar(index: 'sidebar-12');
+?>
+<main id=site-content role="main">
+		<div class="col1">
+			<?php if($has_sidebar_10 ){?>
+			<div class="footer-widgets-wrapper">
+				<?php if($has_sidebar_10 ){?>
+					<div class="footer-widgets column-one grid-item">
+						<?php dynamic_sidebar(index:'sidebar-10')?>
+					</div>
+					<?php }?>
+				</div>
+			<?php } ?>
+		</div>
 
+		<div class="col2">
+			<?php if($has_sidebar_11 ){?>
+			<div class="footer-widgets-wrapper">
+				<?php if($has_sidebar_11 ){?>
+					<div class="footer-widgets column-one grid-item">
+						<?php dynamic_sidebar(index:'sidebar-11')?>
+					</div>
+					<?php }?>
+				</div>
+			<?php } ?>
+		</div>
+
+		<div class="col3">
+			<?php if($has_sidebar_12 ){?>
+			<div class="footer-widgets-wrapper">
+				<?php if($has_sidebar_12 ){?>
+					<div class="footer-widgets column-one grid-item">
+						<?php dynamic_sidebar(index:'sidebar-12')?>
+					</div>
+					<?php }?>
+				</div>
+			<?php } ?>
+		</div>
 <?php if ( is_home() && ! is_front_page() && ! empty( single_post_title( '', false ) ) ) : ?>
 	<header class="page-header alignwide">
 		<h1 class="page-title"><?php single_post_title(); ?></h1>
