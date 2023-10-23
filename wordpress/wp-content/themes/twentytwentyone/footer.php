@@ -58,7 +58,7 @@
                 </ul>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4">
-                <h5>Mục</h5>
+                <h5>Danh Mục</h5>
                 <?php
                 $ca = get_categories();
                 if ($ca) {
