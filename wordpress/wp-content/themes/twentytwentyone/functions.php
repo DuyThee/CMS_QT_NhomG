@@ -360,12 +360,6 @@ function twenty_twenty_one_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
-	register_sidebar(
-		array(
-			'name'          => esc_html__( 'Recent Post', 'twentytwentyone' ),
-			'id'            => 'sidebar-10',
-			'description'   => esc_html__( 'Add widgets here to appear in your footer.', 'twentytwentyone' ),
-		));
 		register_sidebar(
 			array(
 				'name'          => esc_html__( 'Comment', 'twentytwentyone' ),
