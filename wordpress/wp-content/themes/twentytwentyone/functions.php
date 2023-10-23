@@ -360,6 +360,18 @@ function twenty_twenty_one_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
+		register_sidebar(
+			array(
+				'name'          => esc_html__( 'Comment', 'twentytwentyone' ),
+				'id'            => 'sidebar-12',
+				'description'   => esc_html__( 'Add widgets here to appear in your footer.', 'twentytwentyone' ),
+			));
+			register_sidebar(
+				array(
+					'name'          => esc_html__( 'Archive', 'twentytwentyone' ),
+					'id'            => 'sidebar-11',
+					'description'   => esc_html__( 'Add widgets here to appear in your footer.', 'twentytwentyone' ),
+				));
 }
 add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
 
