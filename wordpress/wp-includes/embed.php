@@ -994,7 +994,7 @@ function wp_embed_excerpt_more( $more_string ) {
 		'<a href="%1$s" class="wp-embed-more" target="_top">%2$s</a>',
 		esc_url( get_permalink() ),
 		/* translators: %s: Post title. */
-		sprintf( __( 'Continue reading %s' ), '<span class="screen-reader-text">' . get_the_title() . '</span>' )
+		sprintf( __( '[...] %s' ), '<span class="screen-reader-text">' . get_the_title() . '</span>' )
 	);
 	return ' &hellip; ' . $link;
 }
