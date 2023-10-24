@@ -152,7 +152,7 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
 </style>
 <nav class="navbar navbar-icon-top navbar-expand-lg navbar-light bg-light" style="margin-bottom: 50px">
     <div class="container">
-        <a class="navbar-brand" href="">Nhom</a>
+        <a class="navbar-brand" href="">Nhom E</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
