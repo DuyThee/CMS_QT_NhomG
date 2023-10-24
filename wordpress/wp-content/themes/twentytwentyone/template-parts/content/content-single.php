@@ -14,7 +14,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<header class="entry-header alignwide custom-d-flex">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title('<h6 class="entry-title">', '</h6>'); ?>
 		<?php
 		$post = get_post();
 		$date = $post->post_date;
