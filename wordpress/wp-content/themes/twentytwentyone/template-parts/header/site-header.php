@@ -140,7 +140,7 @@ $wrapper_classes .= has_nav_menu( 'primary' ) ? ' has-menu' : '';
     .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link>.fa>.badge {
         top: -7px;
     }
-    }
+    
     .ip_search{
         border: 1px solid #00000066 !important;
         border-radius: 5px !important;
