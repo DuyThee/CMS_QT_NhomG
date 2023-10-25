@@ -24,7 +24,6 @@ $month = date("m", strtotime($date));
 		<div class="item-card">
 		<div class="row">
 			<div class="col-5">
-				<img class="w-100 h-100" src="https://media.istockphoto.com/id/1067347086/photo/cat-with-blue-eyes-looks-at-camera.jpg?s=612x612&w=0&k=20&c=UP1yQs6o0eidm4L2F74DDm02pyeH40MwBwwGRAKhb4E=" alt="">
 			</div>
 			<div class="col-1">
 				<div class="d-flex flex-column">
@@ -66,6 +65,7 @@ $month = date("m", strtotime($date));
 		height:80%;
 	}
 	.ngay{
+  	font-family: 'Times New Roman', serif;
 		font-size: 80px;
 		font-weight: 700;
 	}
