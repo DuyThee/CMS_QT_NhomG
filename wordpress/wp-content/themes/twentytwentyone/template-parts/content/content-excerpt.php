@@ -57,7 +57,11 @@ $month = date("m", strtotime($date));
 		box-shadow: 0px 0px 2px 2px lightgray;
 	}
 	.post-title a{
-		text-decoration: none !important;
+		text-decoration: none;
+		color: #428BCA;
+	}
+	.post-title a:hover{
+		text-decoration: underline;
 		color: #428BCA;
 	}
 	.entry-content{
@@ -75,5 +79,11 @@ $month = date("m", strtotime($date));
 	}
 	.ngay, .thang{
 		text-align:center;
+	}
+	.more-link{
+		text-decoration: none;
+	}
+	.more-link:hover{
+		text-decoration: underline;
 	}
 </style>
