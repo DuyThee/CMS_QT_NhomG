@@ -70,6 +70,7 @@
 		border-bottom: 2px #b0aeae solid !important;
 	}
 	.timestamp{
+  		font-family: 'Times New Roman', serif;
 		display:flex;
 		align-items: center;
 		justify-content:center;
